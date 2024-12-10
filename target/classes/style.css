@@ -1,0 +1,48 @@
+/* Styles spécifiques pour JavaFX */
+
+/* Style général de la fenêtre */
+.root {
+    -fx-font-family: Arial, sans-serif; /* Police d'écriture */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-background-color: #f0f8ff; /* Couleur d'arrière-plan */
+}
+
+/* Style des titres */
+.text {
+    -fx-font-weight: bold;
+    -fx-fill: #333333; /* Couleur du texte */
+}
+
+/* Style des labels */
+.label {
+    -fx-text-fill: #333333; /* Couleur du texte */
+    -fx-font-weight: bold; /* Gras */
+}
+
+/* Style des champs de texte */
+.text-field {
+    -fx-border-color: #0078d7; /* Bordure bleue */
+    -fx-border-radius: 5px; /* Coins arrondis */
+    -fx-padding: 5px; /* Espacement intérieur */
+}
+
+/* Style des boutons */
+.button {
+    -fx-background-color: #0078d7; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-weight: bold; /* Gras */
+    -fx-border-radius: 10px; /* Coins arrondis */
+    -fx-padding: 10px 20px; /* Espacement intérieur */
+}
+
+.button:hover {
+    -fx-background-color: #0053a5; /* Couleur de fond au survol */
+}
+
+/* Style de la grille */
+.grid-pane {
+    -fx-background-color: #ffffff; /* Couleur de fond */
+    -fx-border-color: #0078d7; /* Bordure bleue */
+    -fx-border-radius: 10px; /* Coins arrondis */
+    -fx-padding: 20px; /* Espacement intérieur */
+}
